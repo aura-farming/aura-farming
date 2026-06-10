@@ -1,16 +1,18 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aura-farming/aura-farming/main/assets/terminal.svg" width="840" alt="lucas — brisbane, au — building agents, harnesses & infra. An animated terminal session: ./harness status returns agents 12 active, evals all green, infra 99.98% uptime." />
+</p>
 
-<!--
-**aura-farming/aura-farming** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### now
 
-Here are some ideas to get you started:
+an audit & replay control plane for mcp agents — sessions, security, efficiency, replay.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### stack
+
+`typescript` · `python` · `postgres` · `mcp` · `claude`
+
+### elsewhere
+
+brisbane, au · [lucasdaish@outlook.com](mailto:lucasdaish@outlook.com)
+
+<!-- the header is a self-contained animated svg (no js, no external requests).
+     regenerate with: node generate.mjs -->
