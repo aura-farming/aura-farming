@@ -203,7 +203,7 @@ const fontBold = b64('assets/fonts/jbmono-bold-subset.woff2');
 // ---------------------------------------------------------------- svg
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${VB.w}" height="${VB.h}" viewBox="0 0 ${VB.w} ${VB.h}" role="img" aria-labelledby="t d">
 <title id="t">aura-farmer — Lucas Daish, Brisbane AU — building agents, harnesses &amp; some other shit</title>
-<desc id="d">An animated Claude Code session. Prompt: who is aura-farmer. Response: Lucas Daish, Brisbane AU — building agents, harnesses and some other shit. Planted 12 agents, all growing. Harness green, evals passing, infra holding. Cultivated for 14s.</desc>
+<desc id="d">An animated Claude Code session. Prompt: who is aura-farmer. Response: Lucas Daish, Brisbane AU — building agents, harnesses and some other shit. Planted 12 agents, all growing. Harness green, evals passing, infra holding. It&apos;s time for a 4x.</desc>
 <style>
 @font-face{font-family:'JBM';src:url(data:font/woff2;base64,${fontReg}) format('woff2');font-weight:400;font-style:normal}
 @font-face{font-family:'JBM';src:url(data:font/woff2;base64,${fontBold}) format('woff2');font-weight:700;font-style:normal}
@@ -286,7 +286,7 @@ ${css}
 
   <g class="aDone" opacity="0">
     <g transform="translate(${GUT + 5},${rowY(ROWS.done) - 5})">${star8(C.amber)}</g>
-    <text x="${BODY}" y="${rowY(ROWS.done)}" class="dim" xml:space="preserve">Cultivated for 14s</text>
+    <text x="${BODY}" y="${rowY(ROWS.done)}" class="dim" xml:space="preserve">It&apos;s time for a 4x</text>
   </g>
 </g>
 
